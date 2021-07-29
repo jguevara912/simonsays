@@ -229,6 +229,8 @@ function check() {
 function winGame() {
   flashColor();
   turnCounter.innerHTML = "WIN!";
+  let audio = document.getElementById("clip5");
+  audio.play();
   on = false;
   win = true;
 }
